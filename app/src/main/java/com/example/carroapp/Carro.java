@@ -1,6 +1,6 @@
 package com.example.carroapp;
 
-public class Carro {
+public class Carro extends Vehiculo{
     //Las caracteristicas de un Objeto son los atributos de la clase
     public String color;
     public String marca;
@@ -67,4 +67,8 @@ public class Carro {
 
     }
 
+    @Override
+    public String getMarca() {
+        return this.marca;
+    }
 }
